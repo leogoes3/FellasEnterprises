@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="tela" prefHeight="795.0" prefWidth="1280.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerMenus.FXMLPrincipalController">
+   <children>
+      <Label alignment="CENTER" layoutX="-4.0" prefHeight="66.0" prefWidth="220.0" styleClass="background" text="Easy Stock 2.1" underline="true">
+         <font>
+            <Font name="Book Antiqua Bold" size="24.0" />
+         </font>
+      </Label>
+      <HBox alignment="TOP_RIGHT" layoutX="222.0" prefHeight="65.0" prefWidth="1058.0" styleClass="btnmni2">
+         <children>
+            <JFXButton fx:id="mnicadastro" buttonType="RAISED" layoutX="220.0" layoutY="10.0" onAction="#btnCadastro" prefHeight="65.0" prefWidth="220.0" ripplerFill="#5e49e5" styleClass="btnmni" text="CADASTRO">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="mniconsulta" buttonType="RAISED" layoutX="1079.0" layoutY="10.0" onAction="#btnConsulta" prefHeight="65.0" prefWidth="211.0" ripplerFill="#5e49e5" styleClass="btnmni" text="CONSULTAR/EDITAR">
+               <font>
+                  <Font name="Verdana" size="17.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="mnirelatorio" buttonType="RAISED" layoutX="1079.0" layoutY="10.0" onAction="#btnRelatorio" prefHeight="65.0" prefWidth="211.0" ripplerFill="#5e49e5" styleClass="btnmni" text="RELATÓRIOS">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="mnisobre" buttonType="RAISED" layoutX="1079.0" layoutY="10.0" prefHeight="65.0" prefWidth="211.0" ripplerFill="#5e49e5" styleClass="btnmni" text="SOBRE">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="mnisair" buttonType="RAISED" layoutX="1079.0" layoutY="10.0" onAction="#sair" prefHeight="65.0" prefWidth="211.0" ripplerFill="#5e49e5" styleClass="btnmni" text="SAIR">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font></JFXButton>
+         </children>
+      </HBox>
+      <Pane fx:id="pnlmnu" layoutX="-4.0" layoutY="65.0" prefHeight="729.0" prefWidth="220.0" />
+   </children>
+</AnchorPane>

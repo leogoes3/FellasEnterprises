@@ -1,0 +1,51 @@
+/*fundo da primeira tela*/
+.background{
+    -fx-background-color: #cfcfcf ;
+}
+
+
+
+/*BOTOES TELA PRINCIPAL*/
+.btnmni{  
+   -fx-background-color: aliceblue;
+}
+.btnmni2{   
+   -fx-background-color: aliceblue;   
+}
+.btnmni:hover{
+    -fx-background-color: #ffffff;
+    -fx-cursor: hand;
+    -fx-border-color: #4949e6;
+    -fx-border-width: 0px 0px 3px 0px;
+}
+
+
+
+/*BOTOES TELA LOGIN*/
+.botoeslogin{
+    -fx-font-family: verdana;
+    -fx-background-color: #0099ff;
+    -fx-background-radius: 30px; 
+}
+.botoeslogin:hover{-fx-background-color: #ffffff;
+    -fx-cursor: hand;}
+
+.txtlogin{
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;  
+}
+
+
+/*BOTOES DOS MENUS*/
+.btnmnu{
+    -fx-background-color: aliceblue;
+}
+.btnmnu:hover{   
+    -fx-cursor: hand;
+    -fx-border-color: #4949e6;
+    -fx-border-width: 0px 0px 0px 7px;
+    -fx-background-color: #ffffff;
+}
+.btnmnu2{   
+   -fx-background-color: aliceblue;
+}
